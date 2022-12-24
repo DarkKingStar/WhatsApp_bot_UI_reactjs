@@ -18,13 +18,13 @@ import {
 } from "firebase/firestore";
 import {getDatabase, ref, set } from 'firebase/database'
 const firebaseConfig = {
-    apiKey: "AIzaSyBw3P9ZTdYQG3z9D2rUx4SEIij11iAJBWw",
-    authDomain: "whatapps-chatbot.firebaseapp.com",
-    projectId: "whatapps-chatbot",
-    storageBucket: "whatapps-chatbot.appspot.com",
-    messagingSenderId: "885830890295",
-    appId: "1:885830890295:web:b8f9add086a3c475f920b2",
-    databaseURL: "whatapps-chatbot-default-rtdb.asia-southeast1.firebasedatabase.app"
+    apiKey: "...",
+    authDomain: "...",
+    projectId: "...",
+    storageBucket: "...",
+    messagingSenderId: "...",
+    appId: "...",
+    databaseURL: "..."
 };
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
