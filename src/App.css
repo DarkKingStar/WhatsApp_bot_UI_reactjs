@@ -1,0 +1,19 @@
+.heading{
+    width: fit-content;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,0);
+}
+h1,h5{
+    line-height: 0;
+    color: rgb(0, 0, 0);
+    text-shadow: -2px -2px 0 rgb(254, 254, 254), 2px -2px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 255, 255),2px 2px 0 rgb(244, 244, 244);
+}
+h1{
+    font-size: 46px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h5{
+    text-align: right;
+}

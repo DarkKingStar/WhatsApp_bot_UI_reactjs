@@ -1,0 +1,44 @@
+.dashboard {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar{
+    text-shadow: -1px -1px 0 rgb(254, 254, 254), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255),1px 1px 0 rgb(244, 244, 244);
+    font-size: 20px;
+  }
+  .dashboard__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  .navbar_right{
+    position: absolute;
+    right: 0;
+    top:0;
+    transform: translate(-50%,0);
+  }
+  .dashboard__btn {
+    padding: 8px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(8, 8, 8);
+    border: 5px solid white;
+    border-radius: 8px;
+  }
+  .dashboard div {
+    margin-top: 7px;
+  }
+  .btn_dash{
+    padding: 10px;
+    margin: 5px;
+    background-color: greenyellow;
+    border-radius: 8px;
+  }

@@ -1,0 +1,53 @@
+.overlayer{
+    position: absolute;
+    width: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: auto !important;
+    background-color: rgba(255,255,255,0.8);
+}
+.close_tab{
+    position: absolute;
+    right:0;
+    top:0;
+    transform: translate(50%,-50%);
+    font-weight: bold;
+    font-size: 25px;
+}
+.commands_list, .add_commands{
+    border-radius: 5px;
+    border: 2px solid rgb(0, 81, 255);
+    object-fit: cover;
+    margin: 20px;
+    padding: 5px 20px;
+}
+.command_title{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+label{
+    font-size:20px;
+    font-weight: bold;
+}
+.btn_group{
+    left:50%;
+    width: fit-content;
+    position: relative;
+    transform: translate(-50%,0);
+}
+.btn_submit{
+    
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0275d8;
+    position: relative;
+}
+.btn_submit:active{
+    background-color: #003a6d;
+}
+.command_reply{
+    width: 100%;
+    height: 200px;
+}

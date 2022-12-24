@@ -1,0 +1,22 @@
+:root{
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none;
+  overflow-x: hidden;
+}
+a{
+    color:blue;
+    text-decoration: none;
+}
+a:visited{
+    color:blue;
+}
+.danger{
+    background-color: rgb(240, 53, 12);
+}
+.success{
+    background-color: rgb(25, 213, 25);
+}
+.primary{
+    background-color: rgb(14, 106, 227);
+}
